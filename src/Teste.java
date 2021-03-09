@@ -35,6 +35,7 @@ public class Teste {
                 break;
 
             default:
+                JOptionPane.showMessageDialog(null, "Isso o Skeep não consegue fazer!");
                 break;
             }
         } while (Skeep.vida == true);
