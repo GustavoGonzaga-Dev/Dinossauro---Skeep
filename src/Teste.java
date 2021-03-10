@@ -36,9 +36,11 @@ public class Teste {
 
             default:
                 JOptionPane.showMessageDialog(null, "Isso o Skeep não consegue fazer!");
+                Skeep.setVida(false);
+                JOptionPane.showMessageDialog(null, "Skeep morreu :'(");
                 break;
             }
-        } while (Skeep.vida == true);
+        } while (Skeep.getVida()== true);
         // scan.close();
     }
 }

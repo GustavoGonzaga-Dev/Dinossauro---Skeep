@@ -70,4 +70,12 @@ public class Dinossauro {
                 + velocidade + "\n" + "Temperatura = " + temperatura + "\n" + "Humor = " + humor);
     }
 
+    public boolean getVida(){
+        return vida;
+    }
+
+    public void setVida(boolean valor){
+        this.vida = valor;
+    }
+
 }
